@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t $(basename `pwd`) .
+docker build -t $(basename "$(pwd)") .
